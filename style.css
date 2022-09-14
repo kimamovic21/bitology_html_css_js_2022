@@ -1,0 +1,18 @@
+body {
+    background-color: #efefef;
+}
+
+.crveniParagraf {
+    color: red;
+    font-size: 50px;
+}
+
+.zeleniParagraf {
+    color: green;
+    font-size: 30px;
+}
+
+
+/* p:first-child  {
+
+} */
