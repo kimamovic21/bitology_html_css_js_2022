@@ -28,3 +28,19 @@ html -> struktura web stranice
 
 
 
+Bitology 15.09.2022.
+
+-ponavljanje gradiva iz prethodnog casa
+-div element
+-znacenje {} -> opseg koda
+-dodavanje margine elementima
+-developer tools google chrome
+-inline vs block elementi
+-border 
+-padding (margina sa unutrasnja strane sadrzaja)
+-border box
+-margin:auto znaci raspolozivi prostor sa strana rasporediti jednako
+-width
+-SEO -> search engine optimization
+-h1 element -> naslov nivoa 1
+-samo jedan h1 element moze biti na stranici
