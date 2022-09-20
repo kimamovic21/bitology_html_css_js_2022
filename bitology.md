@@ -44,3 +44,21 @@ Bitology 15.09.2022.
 -SEO -> search engine optimization
 -h1 element -> naslov nivoa 1
 -samo jedan h1 element moze biti na stranici
+
+
+
+
+Bitology 20.09.2022.
+
+-vrste lista u HTML-u : uredene i neuredene
+-odredena lista -> ol
+-neodredena lista -> ul
+-element u listi -> li
+-https://stackoverflow.com/questions/23610151/can-you-style-ordered-list-numbers
+-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol
+-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+-a element
+-a:hover
+-https://stackoverflow.com/questions/9612758/add-a-css-border-on-hover-without-moving-the-element
+-button element
+-button:hover

@@ -18,6 +18,7 @@ body {
     width: 800px;
     margin: 50px auto 100px;
     border: 5px solid black;
+    padding: 5px;
 }
 
 .crveniParagraf {
@@ -39,5 +40,6 @@ h2 {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
