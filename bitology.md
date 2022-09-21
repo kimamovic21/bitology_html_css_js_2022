@@ -4,6 +4,8 @@ Bitology 13.09.2022.
 html -> struktura web stranice
 -index.html –> pocetna stranice neke web stranice
 -<!DOCTYPE html>
+-meta elementi
+-elementi sa samozatvarajucim tagom
 -otvarajuci tag i zatvarajuci tag
 -html element
 -head element
@@ -14,7 +16,7 @@ html -> struktura web stranice
 -css -> izgled tih elemenata
 -element moze imati atribude
 -css unutar samog elementa
--javascript definisanje ponasanje elemenata na web stranici
+-javascript sluzi za funkcionalnost elemenata na web stranici
 -3 nacina pisanja css koda
 -kreirano css fajl
 -povezivanje html fajla sa css fajlom
@@ -24,6 +26,7 @@ html -> struktura web stranice
 -selektovanje klasa u css fajlu
 -selektovanje id-eva u css fajlu
 -svaki element mora imati jedinstven id
+-kod za stiliziranje elemenata iskljucivo pisati u css fajlu
 
 
 
@@ -44,6 +47,7 @@ Bitology 15.09.2022.
 -SEO -> search engine optimization
 -h1 element -> naslov nivoa 1
 -samo jedan h1 element moze biti na stranici
+-https://developers.google.com/style/headings
 
 
 
@@ -62,3 +66,9 @@ Bitology 20.09.2022.
 -https://stackoverflow.com/questions/9612758/add-a-css-border-on-hover-without-moving-the-element
 -button element
 -button:hover
+
+
+
+
+Bitology 22.09.2022.
+-
