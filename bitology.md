@@ -71,4 +71,22 @@ Bitology 20.09.2022.
 
 
 Bitology 22.09.2022.
--
+
+-Sistem boja u CSS-u
+-heksadecimalni, rgb, hsl
+-https://www.rapidtables.com/web/color/RGB_Color.html
+-https://www.w3schools.com/html/html_tables.asp
+-Elementi tabele:
+1. tabela -  element <table>
+2. zaglavlje tabele - element <thead>
+3. celija unutar <thead> elementa - element <ht>
+4. tijelo - body element <tbody>
+5. redovi - row element <tr>
+6. podaci - podatkovni element <td>
+-stiliziranje elemenata unutar tabele
+-kreiranje script.js fajla
+-definisanje funkcije
+-parametri i argumenti funkcije
+-tijelo funkcije 
+-programske instrukcije
+

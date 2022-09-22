@@ -18,49 +18,75 @@ body {
     margin-right: -20px;
 }
 
-li {
+.navigation ul li {
     display: inline;
     margin-right: 20px;
     list-style-type: none;
 }
 
-.navigation li a {
+.navigation ul li a {
     color: #efefef;
     text-decoration: none;
     text-transform: uppercase;
     padding: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
 }
 
-.navigation li a:hover {
+.navigation ul li a:hover {
     background-color: #efefef;
     color: #333;
 }
+
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    border: 2px solid #000;
 }
 
-h1 {
+.container h1 {
     font-size: 50px;
     color: #333;
-    margin: 20px 0;
+    margin: 20px 0 50px;
 }
 
-button {
+
+table {
+    border-collapse: collapse;
+}
+
+th, 
+td {
+    border: 2px solid #333;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+th {
+    background-color: rgb(206, 204, 204);
+    color: rgb(39, 39, 39);
+}
+
+td {
+    font-size: 18px;
+}
+
+.container-button button {
     width: 120px;
     height: 50px;
     background-color: #333;
     color: #efefef;
-    padding: 5px 10px;
     border-radius: 15px;
     cursor: pointer;
     border: 3px solid #333;
+    margin-top: 30px;
 }
 
-button:hover {
-    background-color: #efefef;
-    color: #333;
+.container-button button:hover {
+    background-color: rgb(90, 86, 86);
+    border: 3px solid rgb(90, 86, 86);
+    color: #efefef;
 }
