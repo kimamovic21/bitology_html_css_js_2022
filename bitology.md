@@ -90,3 +90,36 @@ Bitology 22.09.2022.
 -tijelo funkcije 
 -programske instrukcije
 
+
+
+
+Bitology - 27.09.2022.
+
+-sintaksa javascript funkcije
+-kljucna / rezervisana rijec function
+-deskriptivni naziv funkcije koji opisuje sta funkcija radi
+-male zagrade ()  - unutar kojih se nalaze neki parametri (neobavezno)
+-{} - skup nekih programskih naredbi
+-vrste varijabli 
+-varijabla -> ime za memorijsku lokaciju u RAM-u
+-u varijabli se moze smjestiti samo jedan tip vrijednosti
+-neki od tipovi podataka u javascriptu:
+1. number - broj
+2. string - tekst (niz slova)
+3. boolean - tacno ili netacno
+-neke od rezervisanih rijeci u javascriptu: let, var, const
+-ne mozemo imati varijablu koja nosi ime po rezervisanoj rijeci
+-deklarisanje varijabli
+-dodjeljivanje vrijednosti varijabli 
+-ispisati vrijednost novodobijene varijable 
+-razlika izmedu parametra i argumenta
+-manipulacija dokumenta sa javascriptom
+-postoje 3 nacina ispisivanja rezultata u javascriptu:
+1. ispisivanje u konzolu - console.log()
+2. otvaranje dialog boxa u pretrazivacu sa funkcijom alert
+3. ispisivanje u samom dokumentu - u samom pretrazivacu
+-atribut defer u script elementu na pocetku HTML fajla
+-defer - odgoditi ocitavanje skripte sve dok se ne ocitaju svi HTML elementi na stranici
+-izvrsavanje koda na serverskoj i klijentskoj strani 
+-https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+-https://www.w3schools.com/jsref/prop_html_innerhtml.asp
