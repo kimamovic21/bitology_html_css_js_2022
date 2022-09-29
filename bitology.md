@@ -120,6 +120,25 @@ Bitology - 27.09.2022.
 3. ispisivanje u samom dokumentu - u samom pretrazivacu
 -atribut defer u script elementu na pocetku HTML fajla
 -defer - odgoditi ocitavanje skripte sve dok se ne ocitaju svi HTML elementi na stranici
+-getElementById -> javascript funkcija koja uzima kao parametar id nekog elementa iz HTML fajla
 -izvrsavanje koda na serverskoj i klijentskoj strani 
 -https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+-dodavanje innerHTML-a varijabli 
 -https://www.w3schools.com/jsref/prop_html_innerhtml.asp
+
+
+
+
+Bitology - 29.09.2022.
+
+-dogadaji u javascript-u
+-addEventListener -> javascript funkcija koja uzima dva parametra 
+-addEventListener ('dogadaj', funkcija)
+-deklarisanje varijable koristenjem dokument objekt modela
+-dodavanje dogadaja toj varijabli
+-funkcija koja objasnjava sta treba da se desi
+-mouseover dogadaj -> kada se prede misem preko nekog elementa
+-dodavanje button elementu klase preko javascripta
+-mouseleave dogadaj koji uklanja klasu
+-sa classList vrsimo manipulaciju liste klasa elemenata
+-.add() i .remove() su funkcije koje uzimaju kao parametar ime klase
