@@ -58,3 +58,29 @@ console.log(noviRezultat);
 // let rezultat = pomnoziSaDva(10);
 // console.log(rezultat);
 
+
+
+
+// Moji primjeri
+
+let auta = ['BMW', 'audi', 'mercededs'];
+console.log(auta);
+
+auta.push('Golf', 'Skoda');
+console.log(auta);
+
+
+let voce = ['banane', 'kruske', 'jabuke', 'sljive', 'maline'];
+console.log(voce);
+
+let novoVoce = voce.map((vocka) => {
+    return vocka.toUpperCase();
+});
+console.log(novoVoce);
+
+
+let povrce = ['krompir', 'paradajz', 'mrkva', 'krastavac', 'luk'];
+console.log(povrce);
+
+let novoPovrce = povrce.map((pov) => pov.charAt(0));
+console.log(novoPovrce);
