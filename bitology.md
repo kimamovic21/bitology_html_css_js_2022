@@ -142,3 +142,17 @@ Bitology - 29.09.2022.
 -mouseleave dogadaj koji uklanja klasu
 -sa classList vrsimo manipulaciju liste klasa elemenata
 -.add() i .remove() su funkcije koje uzimaju kao parametar ime klase
+
+
+
+
+Bitology - 04.10.2022.
+
+-Anonimna fukcija i klasicna funkcija
+-pohranjivanje funkcije unutar neke varijable
+-nizovi u javascriptu
+-push metoda -> dodati novi item na kraj postojeceg niza
+-pop metoda -> brisati item sa zadnjeg mjesta postojeceg niza
+-map metoda -> poziva callback funkciju
+-toUpperCase metoda 
+-pohraniti metodu map u neku novu varijablu
