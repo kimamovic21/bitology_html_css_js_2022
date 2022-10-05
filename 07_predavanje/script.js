@@ -73,8 +73,8 @@ console.log(auta);
 let voce = ['banane', 'kruske', 'jabuke', 'sljive', 'maline'];
 console.log(voce);
 
-let novoVoce = voce.map((vocka) => {
-    return vocka.toUpperCase();
+let novoVoce = voce.map((novo) => {
+    return novo.toUpperCase();
 });
 console.log(novoVoce);
 
@@ -82,5 +82,5 @@ console.log(novoVoce);
 let povrce = ['krompir', 'paradajz', 'mrkva', 'krastavac', 'luk'];
 console.log(povrce);
 
-let novoPovrce = povrce.map((pov) => pov.charAt(0));
+let novoPovrce = povrce.map((novo) => novo.charAt(0));
 console.log(novoPovrce);

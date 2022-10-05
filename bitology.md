@@ -156,3 +156,10 @@ Bitology - 04.10.2022.
 -map metoda -> poziva callback funkciju
 -toUpperCase metoda 
 -pohraniti metodu map u neku novu varijablu
+
+
+
+
+Bitology - 06.10.2022.
+
+-
