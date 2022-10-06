@@ -134,6 +134,7 @@ Bitology - 29.09.2022.
 -dogadaji u javascript-u
 -addEventListener -> javascript funkcija koja uzima dva parametra 
 -addEventListener ('dogadaj', funkcija)
+-https://www.w3schools.com/jsref/met_document_addeventlistener.asp
 -deklarisanje varijable koristenjem dokument objekt modela
 -dodavanje dogadaja toj varijabli
 -funkcija koja objasnjava sta treba da se desi
@@ -152,14 +153,29 @@ Bitology - 04.10.2022.
 -pohranjivanje funkcije unutar neke varijable
 -nizovi u javascriptu
 -push metoda -> dodati novi item na kraj postojeceg niza
+-https://www.w3schools.com/jsref/jsref_push.asp
 -pop metoda -> brisati item sa zadnjeg mjesta postojeceg niza
+-https://www.w3schools.com/jsref/jsref_pop.asp
 -map metoda -> poziva callback funkciju
 -toUpperCase metoda 
 -pohraniti metodu map u neku novu varijablu
+-https://www.w3schools.com/jsref/jsref_map.asp
 
 
 
 
 Bitology - 06.10.2022.
 
--
+-filter metoda
+-https://www.w3schools.com/jsref/jsref_filter.asp
+-if uslov u javascriptu
+-https://www.w3schools.com/jsref/jsref_object_constructor.asp
+-objekti u javascriptu
+-objekti su skup primitivnih vrijednosti
+-objekt -> par {kljuc + vrijednost}
+-dot notation (tacka notacija) - pristupamo nekom podatku
+-prikazivanje objekta liste zaposlenih u javascript na web stranici
+-uvrstavanje stringova
+-dinamicko ubacivanje podataka u tabelu
+-bootstrap biblioteka za uredivanje tabele u css-u
+-https://getbootstrap.com/

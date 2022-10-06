@@ -15,7 +15,6 @@
 </head>
 
 <body>
-    
     <div class="navigation">
         <ul>
             <li><a href="#">Početna</a></li>
@@ -24,7 +23,26 @@
         </ul>
     </div>
 
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Prezime</th>
+                <th>Ime</th>
+                <th>Radno mjesto</th>
+                <th>Plata</th>
+            </tr>
+        </thead>
+        <tbody id="tijelo">
 
+        </tbody>
+    </table>
+
+    <button class="btn btn-primary" onclick="filterFunkcija()">
+        Plate > 3000
+    </button>
+    <button class="btn btn-primary" onclick="plateManjeOd3000()">
+        Plate < 3000
+    </button>
 </body>
 
 </html>
