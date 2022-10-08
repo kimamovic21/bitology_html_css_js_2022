@@ -53,7 +53,7 @@ let footballClubs = [
         stadium: 'Anoeta',
         capacity: 39500,
         titles: 2,
-        logo: '',
+        logo: 'https://assets.stickpng.com/images/584ad36ab519ea740933a8d3.png',
     },
     {
         name: 'FC Real Betis',
@@ -61,7 +61,7 @@ let footballClubs = [
         stadium: 'Benito Villamarin',
         capacity: 60721,
         titles: 1,
-        logo: '',
+        logo: 'http://assets.stickpng.com/thumbs/584ad396b519ea740933a8d9.png',
     },
     {
         name: 'FC Villarreal',
@@ -69,7 +69,7 @@ let footballClubs = [
         stadium: 'Estadio de la Ceramica',
         capacity: 23500,
         titles: 0,
-        logo: '',
+        logo: 'https://assets.stickpng.com/images/584a9b57b080d7616d298779.png',
     },
     {
         name: 'FC Rayo Vallecano',
@@ -77,7 +77,7 @@ let footballClubs = [
         stadium: 'Estadio de Vallecas',
         capacity: 14505,
         titles: 0,
-        logo: '',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Rayo_vallecano_madrid.svg/640px-Rayo_vallecano_madrid.svg.png',
     },
     {
         name: 'FC Real Valladolid',
@@ -85,7 +85,7 @@ let footballClubs = [
         stadium: 'Jose Zorrilla',
         capacity: 27518,
         titles: 0,
-        logo: '',
+        logo: 'https://assets.stickpng.com/images/584ad354b519ea740933a8d1.png',
     },
     {
         name: 'FC Osasuna',
@@ -93,7 +93,7 @@ let footballClubs = [
         stadium: 'Estadio El Sadar',
         capacity: 23576,
         titles: 0,
-        logo: '',
+        logo: 'https://seeklogo.com/images/C/club-atletico-osasuna-logo-BB4998DC78-seeklogo.com.png',
     },
     {
         name: 'FC Celta Vigo',
@@ -101,7 +101,7 @@ let footballClubs = [
         stadium: 'Estadio Balaídos',
         capacity: 29000,
         titles: 0,
-        logo: '',
+        logo: 'http://assets.stickpng.com/thumbs/584ad3c4b519ea740933a8df.png',
     },
     {
         name: 'FC Mallorca',
@@ -109,7 +109,7 @@ let footballClubs = [
         stadium: 'Iberostar',
         capacity: 23142,
         titles: 0,
-        logo: '',
+        logo: 'https://seeklogo.com/images/R/Real_Club_Deportivo_Mallorca-logo-3F62E48906-seeklogo.com.png',
     },
     {
         name: 'FC Girona',
@@ -117,7 +117,7 @@ let footballClubs = [
         stadium: 'Estadi Montilivi',
         capacity: 13500,
         titles: 0,
-        logo: '',
+        logo: 'https://seeklogo.com/images/G/girona-f-c-logo-C206753717-seeklogo.com.png',
     },
     {
         name: 'FC Getafe',
@@ -125,7 +125,7 @@ let footballClubs = [
         stadium: 'Coliseum Alfonso Pérez',
         capacity: 17000,
         titles: 0,
-        logo: '',
+        logo: 'http://assets.stickpng.com/thumbs/584ad4b1b519ea740933a8fc.png',
     },
     {
         name: 'FC Espanyol',
@@ -133,7 +133,7 @@ let footballClubs = [
         stadium: 'Estadi Cornellà-El Prat',
         capacity: 40000,
         titles: 0,
-        logo: '',
+        logo: 'https://www.pngmart.com/files/22/RCD-Espanyol-PNG.png',
     },
     {
         name: 'FC Almeria',
@@ -141,7 +141,7 @@ let footballClubs = [
         stadium: 'Estadio de los Juegos Mediterráneos',
         capacity: 15000,
         titles: 0,
-        logo: '',
+        logo: 'https://assets.stickpng.com/images/584ad245b519ea740933a8b3.png',
     },
     {
         name: 'FC Cadiz',
@@ -149,7 +149,7 @@ let footballClubs = [
         stadium: 'Estadio Nuevo Mirandilla',
         capacity: 25033,
         titles: 0,
-        logo: '',
+        logo: 'http://assets.stickpng.com/thumbs/584ad7abb519ea740933a953.png',
     },
     {
         name: 'FC Elche',
@@ -157,7 +157,7 @@ let footballClubs = [
         stadium: 'Manuel Martínez Valero',
         capacity: 31388,
         titles: 0,
-        logo: '',
+        logo: 'http://assets.stickpng.com/thumbs/584ad4e5b519ea740933a901.png',
     },
 ];
 
@@ -180,6 +180,7 @@ tableBody.innerHTML = footballClubs.map((club) => {
                 <td><img src=${club.logo} alt="Club logo"/></td>
            </tr>`
 }).join('');
+
 
 const capacityGreaterThan40000 = () => {
     console.log('Capacity greater than 40000');
