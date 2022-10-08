@@ -161,6 +161,10 @@ let footballClubs = [
     },
 ];
 
+// footballClubs.sort(function(a, b){
+//     return b.titles - a.titles
+// });
+
 // console.log(footballClubs);
 
 
