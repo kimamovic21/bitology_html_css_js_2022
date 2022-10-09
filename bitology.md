@@ -179,3 +179,7 @@ Bitology - 06.10.2022.
 -dinamicko ubacivanje podataka u tabelu
 -bootstrap biblioteka za uredivanje tabele u css-u
 -https://getbootstrap.com/
+
+
+-sort metoda
+-https://stackoverflow.com/questions/6712034/sort-array-by-firstname-alphabetically-in-javascript

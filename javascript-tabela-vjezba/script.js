@@ -1,171 +1,196 @@
 let footballClubs = [
     {
-        name: 'FC Barcelona',
+        name: 'Barcelona FC',
         city: 'Barcelona',
         stadium: 'Camp Nou',
         capacity: 99354,
         titles: 26,
         logo: 'img/fcbarcelona.png',
+        webPage: 'https://www.fcbarcelona.com',
     },
     {
-        name: 'FC Real Madrid',
+        name: 'Real Madrid FC',
         city: 'Madrid',
         stadium: 'Santiago Bernabeu',
         capacity: 81044,
         titles: 35,
         logo: 'img/fcrealmadrid.png',
+        webPage: 'https://www.realmadrid.com',
     },
     {
-        name: 'FC Atletico Madrid',
+        name: 'Atletico Madrid FC',
         city: 'Madrid',
         stadium: 'Vanda Metropolitano',
         capacity: 68456,
         titles: 11,
         logo: 'img/fcatleticomadrid.png',
+        webPage: 'https://en.atleticodemadrid.com',
     },
     {
-        name: 'FC Valencia',
+        name: 'Valencia FC',
         city: 'Valencia',
         stadium: 'Mestalla',
         capacity: 55000,
         titles: 6,
-        logo: 'img/fcvalencia.png'
+        logo: 'img/fcvalencia.png',
+        webPage: ' https://www.valenciacf.com/en/',
     },
     {
-        name: 'FC Sevilla',
+        name: 'Sevilla FC',
         city: 'Sevilla',
         stadium: 'Ramon Sanchez Pizjuan',
         capacity: 43883,
         titles: 1,
-        logo: 'img/fcsevilla.png'
+        logo: 'img/fcsevilla.png',
+        webPage: 'https://sevillafc.es/en',
     },
     {
-        name: 'FC Athletic Bilbao',
+        name: 'Athletic Bilbao FC',
         city: 'Bilbao',
         stadium: 'San Mames',
         capacity: 53289,
         titles: 8,
         logo: 'img/fcathleticbilbao.png',
+        webPage: 'https://www.athletic-club.eus/',
     },
     {
-        name: 'FC Real Sociedad',
+        name: 'Real Sociedad FC',
         city: 'San Sebastian',
         stadium: 'Anoeta',
         capacity: 39500,
         titles: 2,
-        logo: 'https://assets.stickpng.com/images/584ad36ab519ea740933a8d3.png',
+        logo: 'img/fcrealsociedad.png',
+        webPage: 'https://www.realsociedad.eus/en',
     },
     {
-        name: 'FC Real Betis',
+        name: 'Real Betis FC',
         city: 'Sevilla',
         stadium: 'Benito Villamarin',
         capacity: 60721,
         titles: 1,
-        logo: 'http://assets.stickpng.com/thumbs/584ad396b519ea740933a8d9.png',
+        logo: 'img/fcrealbetis.png',
+        webPage: 'https://en.realbetisbalompie.es/',
     },
     {
-        name: 'FC Villarreal',
+        name: 'Villarreal FC',
         city: 'Villarreal',
         stadium: 'Estadio de la Ceramica',
         capacity: 23500,
         titles: 0,
-        logo: 'https://assets.stickpng.com/images/584a9b57b080d7616d298779.png',
+        logo: 'img/fcvillarreal.png',
+        webPage: 'https://villarrealcf.es/en/',
     },
     {
-        name: 'FC Rayo Vallecano',
+        name: 'Rayo Vallecano FC',
         city: 'Madrid',
         stadium: 'Estadio de Vallecas',
         capacity: 14505,
         titles: 0,
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Rayo_vallecano_madrid.svg/640px-Rayo_vallecano_madrid.svg.png',
+        logo: 'img/fcrayovallecano.png',
+        webPage: 'https://www.rayovallecano.es/',
     },
     {
-        name: 'FC Real Valladolid',
+        name: 'Real Valladolid FC',
         city: 'Valladolid',
         stadium: 'Jose Zorrilla',
         capacity: 27518,
         titles: 0,
-        logo: 'https://assets.stickpng.com/images/584ad354b519ea740933a8d1.png',
+        logo: 'img/fcrealvalladolid.png',
+        webPage: 'https://www.realvalladolid.es/',
     },
     {
-        name: 'FC Osasuna',
+        name: 'Osasuna FC',
         city: 'Pamplona',
         stadium: 'Estadio El Sadar',
         capacity: 23576,
         titles: 0,
-        logo: 'https://seeklogo.com/images/C/club-atletico-osasuna-logo-BB4998DC78-seeklogo.com.png',
+        logo: 'img/fcosasuna.png',
+        webPage: 'https://www.osasuna.es/',
     },
     {
-        name: 'FC Celta Vigo',
+        name: 'Celta Vigo FC',
         city: 'Vigo',
         stadium: 'Estadio Balaídos',
         capacity: 29000,
         titles: 0,
-        logo: 'http://assets.stickpng.com/thumbs/584ad3c4b519ea740933a8df.png',
+        logo: 'img/fcceltavigo.png',
+        webPage: 'https://rccelta.es/en/',
     },
     {
-        name: 'FC Mallorca',
+        name: 'Mallorca FC',
         city: 'Majorca',
         stadium: 'Iberostar',
         capacity: 23142,
         titles: 0,
-        logo: 'https://seeklogo.com/images/R/Real_Club_Deportivo_Mallorca-logo-3F62E48906-seeklogo.com.png',
+        logo: 'img/fcmallorca.png',
+        webPage: 'https://www.rcdmallorca.es/',
     },
     {
-        name: 'FC Girona',
+        name: 'Girona FC',
         city: 'Girona',
         stadium: 'Estadi Montilivi',
         capacity: 13500,
         titles: 0,
-        logo: 'https://seeklogo.com/images/G/girona-f-c-logo-C206753717-seeklogo.com.png',
+        logo: 'img/fcgirona.png',
+        webPage: 'https://www.gironafc.cat/en',
     },
     {
-        name: 'FC Getafe',
+        name: 'Getafe FC',
         city: 'Madrid',
         stadium: 'Coliseum Alfonso Pérez',
         capacity: 17000,
         titles: 0,
-        logo: 'http://assets.stickpng.com/thumbs/584ad4b1b519ea740933a8fc.png',
+        logo: 'img/fcgetafe.png',
+        webPage: 'https://www.getafecf.com/',
     },
     {
-        name: 'FC Espanyol',
+        name: 'Espanyol FC',
         city: 'Barcelona',
         stadium: 'Estadi Cornellà-El Prat',
         capacity: 40000,
         titles: 0,
-        logo: 'https://www.pngmart.com/files/22/RCD-Espanyol-PNG.png',
+        logo: 'img/fcespanyol.png',
+        webPage: 'https://www.rcdespanyol.com/en/',
     },
     {
-        name: 'FC Almeria',
+        name: 'Almeria FC',
         city: 'Almeria',
         stadium: 'Estadio de los Juegos Mediterráneos',
         capacity: 15000,
         titles: 0,
-        logo: 'https://assets.stickpng.com/images/584ad245b519ea740933a8b3.png',
+        logo: 'img/fcalmeria.png',
+        webPage: 'https://www.udalmeriasad.com/en',
     },
     {
-        name: 'FC Cadiz',
+        name: 'Cadiz FC',
         city: 'Cadiz',
         stadium: 'Estadio Nuevo Mirandilla',
         capacity: 25033,
         titles: 0,
-        logo: 'http://assets.stickpng.com/thumbs/584ad7abb519ea740933a953.png',
+        logo: 'img/fccadiz.png',
+        webPage: 'https://www.cadizcf.com/',
     },
     {
-        name: 'FC Elche',
+        name: 'Elche FC',
         city: 'Elche',
         stadium: 'Manuel Martínez Valero',
         capacity: 31388,
         titles: 0,
-        logo: 'http://assets.stickpng.com/thumbs/584ad4e5b519ea740933a901.png',
+        logo: 'img/fcelche.png',
+        webPage: 'https://www.elchecf.es/',
     },
 ];
 
-// footballClubs.sort(function(a, b){
-//     return b.titles - a.titles
-// });
+footballClubs.sort((a, b) => a.name.localeCompare(b.name))
 
-// console.log(footballClubs);
+console.log(footballClubs);
+
+let clubLogos = document.getElementById('club-logos');
+clubLogos.innerHTML = footballClubs.map((club) => {
+    return `<a href="${club.webPage}" target="_blank"> 
+                <img class="club-logos__img" src="${club.logo}" alt="Club logo"/> 
+           </a>`
+}).join('');
 
 
 let tableBody = document.getElementById('tbody');
@@ -189,6 +214,7 @@ const capacityGreaterThan40000 = () => {
     });
     let tbody = document.getElementById('tbody');
     tbody.innerHTML = '';
+    clubs.sort((a,b) => b.capacity - a.capacity);
     tbody.innerHTML = clubs.map((club) => {
         return `<tr>
                 <td>${club.name}</td>
@@ -209,6 +235,7 @@ const capacityLessThan40000 = () => {
     });
     let tbody = document.getElementById('tbody');
     tbody.innerHTML = '';
+    clubs.sort((a,b) => b.capacity - a.capacity);
     tbody.innerHTML = clubs.map((club) => {
         return `<tr>
                 <td>${club.name}</td>
@@ -229,6 +256,7 @@ const moreThan10titles = () => {
     });
     let tbody = document.getElementById('tbody');
     tbody.innerHTML = '';
+    clubs.sort((a,b) => b.titles - a.titles);
     tbody.innerHTML = clubs.map((club) => {
         return `<tr>
                 <td>${club.name}</td>
@@ -249,6 +277,7 @@ const lessThan10titles = () => {
     });
     let tbody = document.getElementById('tbody');
     tbody.innerHTML = '';
+    clubs.sort((a,b) => b.titles - a.titles);
     tbody.innerHTML = clubs.map((club) => {
         return `<tr>
                 <td>${club.name}</td>
