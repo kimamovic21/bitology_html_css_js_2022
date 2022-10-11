@@ -1,4 +1,4 @@
-Bitology 13.09.2022.
+Bitology 13.09.2022. - 1. predavanje
  
 -www i internet
 html -> struktura web stranice
@@ -31,7 +31,7 @@ html -> struktura web stranice
 
 
 
-Bitology 15.09.2022.
+Bitology 15.09.2022. - 2.predavanje
 
 -ponavljanje gradiva iz prethodnog casa
 -div element
@@ -52,7 +52,7 @@ Bitology 15.09.2022.
 
 
 
-Bitology 20.09.2022.
+Bitology 20.09.2022. - 3.predavanje
 
 -vrste lista u HTML-u : uredene i neuredene
 -odredena lista -> ol
@@ -70,7 +70,7 @@ Bitology 20.09.2022.
 
 
 
-Bitology 22.09.2022.
+Bitology 22.09.2022. - 4. predavanje
 
 -Sistem boja u CSS-u
 -heksadecimalni, rgb, hsl
@@ -93,7 +93,7 @@ Bitology 22.09.2022.
 
 
 
-Bitology - 27.09.2022.
+Bitology - 27.09.2022. - 5.predavanje
 
 -sintaksa javascript funkcije
 -kljucna / rezervisana rijec function
@@ -129,7 +129,7 @@ Bitology - 27.09.2022.
 
 
 
-Bitology - 29.09.2022.
+Bitology - 29.09.2022. - 6.predavanje
 
 -dogadaji u javascript-u
 -addEventListener -> javascript funkcija koja uzima dva parametra 
@@ -147,7 +147,7 @@ Bitology - 29.09.2022.
 
 
 
-Bitology - 04.10.2022.
+Bitology - 04.10.2022. - 7. predavanje
 
 -Anonimna fukcija i klasicna funkcija
 -pohranjivanje funkcije unutar neke varijable
@@ -164,7 +164,7 @@ Bitology - 04.10.2022.
 
 
 
-Bitology - 06.10.2022.
+Bitology - 06.10.2022. - 8. predavanje
 
 -filter metoda
 -https://www.w3schools.com/jsref/jsref_filter.asp
@@ -179,7 +179,14 @@ Bitology - 06.10.2022.
 -dinamicko ubacivanje podataka u tabelu
 -bootstrap biblioteka za uredivanje tabele u css-u
 -https://getbootstrap.com/
-
-
 -sort metoda
 -https://stackoverflow.com/questions/6712034/sort-array-by-firstname-alphabetically-in-javascript
+
+
+
+
+Bitology 11.10.2022. - 9. predavanje
+-img element i njegovi atributi
+-input element i njegovi atributi
+-dodavanje value prilikom deklarisanja varijabli za funkciju 
+-postavljanje stranice na netlify

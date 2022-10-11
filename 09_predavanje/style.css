@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #efefef;
+    background-color: #efefef !important;
 }
 
 .navigation {
@@ -44,3 +44,8 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+
+.input-div {
+    margin: 10px;
+}
+
