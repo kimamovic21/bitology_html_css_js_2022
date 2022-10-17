@@ -61,12 +61,13 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
+    height: 4rem;
 }
 
 .header .navbar .nav-logo img {
     width: 4rem;
     margin-left: 1rem;
+    padding: 0.5rem;
 }
 
 .header .navbar .hamburger {
@@ -97,9 +98,9 @@ a:hover {
     .header .navbar .nav-menu {
         position: fixed;
         left: -100%;
-        background-color: rgba(0,0,0,0.8);
+        background-color: rgba(0,0,0,0.9);
         flex-direction: column;
-        top: 80px;
+        top: 64px;
         height: 100%;
         width: 100%;
         transform: 0.3s;
@@ -119,8 +120,9 @@ a:hover {
 }
 
 
+
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     margin-top: 7rem;
 }
 
@@ -128,7 +130,6 @@ a:hover {
     max-width: 70rem;
     margin: 0 auto;
     padding: 1rem;
-    border: 2px solid var(--secondary-color);
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
@@ -145,10 +146,12 @@ a:hover {
     gap: 2rem;
 }
 
+
 .hero .container .image-container img {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 80%;
     border-radius: 12rem;
+    margin-left: 2rem;
 }
 
 
@@ -156,5 +159,99 @@ a:hover {
     .hero .container {
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
+        
+    }
+
+    .hero .container .image-container {
+        width: 70%;
     }
 }   
+
+
+
+.about {
+    min-height: 100vh;
+}
+
+.about .container {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about .container h2 {
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.about .container p {
+    padding: 1rem;
+}
+
+.about .container .grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: justify;
+    gap: 1rem;
+}
+
+.about .container .grid .grid-card {
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1rem;
+}
+
+.about .container .grid .grid-card .grid-image img{
+    width: 70%;
+    border-radius: 1rem;
+}
+
+.about .container .grid .grid-card .informations {
+    padding: 1rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .about .container .grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about .container .grid .grid-card .grid-image img {
+        margin: 0 auto;
+    }
+  
+}   
+
+
+
+.projects {
+    height: 100vh;
+}
+
+.projects .container {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.contact {
+    min-height: 100vh;
+}
+
+
+
+footer {
+    height: 30vh;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
