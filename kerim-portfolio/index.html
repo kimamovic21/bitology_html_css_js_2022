@@ -8,6 +8,7 @@
     <title>Kerim Imamovic | Portfolio</title>
     <link rel="shortcut icon" type="image/jpg" href="img/kerim-logo.png">
     <link rel="stylesheet" href="style.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
     <script src="script.js" defer></script>
 </head>
 
@@ -52,7 +53,7 @@
     <section id="about" class="about">
 
         <div class="container">
-            <h2>Something about me</h2>
+            <h2>Something About Me</h2>
             <p>Currently I am learning HTML, CSS and Javascript. Here are some informations about the technologies I learn.</p>
 
             <div id="grid" class="grid"></div>
@@ -67,6 +68,16 @@
 
         <div class="container">
             <h2>Some of my projects so far</h2>
+
+            <div class="slider-wrapper">
+                <button id="left-btn"><i class="arrow"></i></button>
+                <div class="slider-images">
+                    <img src="projects/kurs.jpg">
+                    <img src="projects/kurs2.jpg">
+                    <img src="projects/kurs3.jpg">
+                </div>
+                <button id="right-btn"><i class="arrow"></i></button>
+            </div>
         </div>
 
     </section>
@@ -74,15 +85,51 @@
 
 
     <section id="contact" class="contact">
+
         <div class="container">
-            <h3>Contact me</h3>
+            <h2>Feel Free To Contact Me</h2>
+
+            <div class="form-container">
+                <form method='POST' action="https://getform.io/f/dca02e7e-afff-4d0f-98a4-7ccc66ea5d33">
+                    <label for="name">Name: </label>
+                    <input type="text" placeholder='Name' name='name' required/>
+                    <label for="surname">Surname: </label>
+                    <input type="text" placeholder='Surname' name='surname' required/><br>
+                    <label for="phone">Phone number: </label>
+                    <input type="number" placeholder='Phone' name='phone'/><br>
+                    <label for="email">E-mail: </label>
+                    <input type="email" placeholder='Email' name='email' required/><br>
+                    <label for="message">Enter you message: </label><br>
+                    <textarea className='' required name="message" placeholder='Message...'></textarea><br>
+                    <button className=''>Send</button>
+                </form>
+
+                <div class="form-image">
+                    <img src="img/contact.png" alt="Form image">
+                </div>
+
+            </div>
+
+
+            <div class="social-networks">
+
+                <h3>Find me on social networks</h3>
+                <div class="icons">
+                    <a href="https://facebook.com/imamovic.kerim" target="_blank"><p>imamovic.kerim <i class="fa fa-facebook"></i></p></a>
+                    <a href="https://instagram.com/k_imamovic" target="_blank"><p>k_imamovic <i class="fa fa-instagram"></i></p></a>
+                    <a href="https://github.com/kimamovic21" target="_blank"><p>kimamovic21 <i class="fa fa-github"></i></p></a>
+                    <a href="https://ba.linkedin.com/in/kerim-imamovic-261918165" target="_blank"><p>Kerim Imamovic <i class="fa fa-linkedin"></i></p></a>
+                </div>
+
+            </div>
+
         </div> 
+
     </section>
 
 
     <footer>
-
-
+        <p>Kerim Imamovic 2022 &#169; All rights reserved.</p>
     </footer>
 
  

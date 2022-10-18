@@ -62,3 +62,57 @@ const showMySkills = () => {
 
 showMySkills();
 
+
+// Ovo je galerija slika
+
+let rightBtn = document.querySelector('#right-btn');
+let leftBtn = document.querySelector('#left-btn');
+let pictures = document.querySelectorAll('.slider-images img');
+
+let imgNum = 0;
+
+// Pomjeramo slike u desno
+const moveRight = () => {
+    console.log('right');
+    // console.log(pictures);
+    displayNone();
+
+    imgNum++;
+
+    if(imgNum === pictures.length) {
+        imgNum = 0;
+    }
+
+    console.log(imgNum);
+
+    // pictures[0].style.display = 'none';
+    // pictures[1].style.display = 'block';
+    pictures[imgNum].style.display = 'block';
+};
+
+// Pomjeramo slike u lijevo
+const moveLeft = () => {
+    console.log('left');
+    displayNone();
+
+    imgNum--;
+
+    if(imgNum === -1) {
+        imgNum = pictures.length - 1;
+    }
+
+    console.log(imgNum);
+    // console.log(pictures);
+    pictures[imgNum].style.display = 'block';
+};
+
+// Event listeneri za strelice
+rightBtn.addEventListener('click', moveRight);
+leftBtn.addEventListener('click', moveLeft);
+
+// Ova funkcija ce da sakrije slike
+const displayNone = () => {
+    pictures.forEach((picture) => {
+        picture.style.display = 'none';
+    });
+};

@@ -7,6 +7,7 @@
 :root {
     --primary-color: #efefef;
     --secondary-color: #333;
+    --my-blue: rgb(6, 93, 255);
 }
 
 html {
@@ -17,6 +18,10 @@ body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     font-family: sans-serif;
+}
+
+section {
+    margin: 0.5rem;
 }
 
 h1 {
@@ -48,6 +53,9 @@ a:hover {
     border-bottom: 1px solid var(--primary-color);
 }
 
+
+/***************************************************  Navbar  *******************************************************/
+
 .header {
     position: fixed;
     color: var(--primary-color);
@@ -55,6 +63,7 @@ a:hover {
     left: 0;
     width: 100%;
     background-color: rgba(0,0,0, 0.9);
+    z-index: 100;
 }
 
 .header .navbar {
@@ -120,10 +129,12 @@ a:hover {
 }
 
 
+/***************************************************  Home  *********************************************************/
+
 
 .hero {
     min-height: 100vh;
-    margin-top: 7rem;
+    margin-top: 8rem;
 }
 
 .hero .container {
@@ -132,7 +143,6 @@ a:hover {
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
@@ -169,8 +179,12 @@ a:hover {
 
 
 
+/****************************************************  About  **********************************************************/
+
+
 .about {
     min-height: 100vh;
+    scroll-margin-top: 3rem;
 }
 
 .about .container {
@@ -184,6 +198,7 @@ a:hover {
 .about .container h2 {
     padding: 0.5rem;
     font-size: 2rem;
+    text-align: center;
 }
 
 .about .container p {
@@ -230,28 +245,229 @@ a:hover {
 
 
 
+/***************************************************  Projects  *********************************************************/
+
+
+
 .projects {
     height: 100vh;
+    scroll-margin-top: 3rem;
 }
 
 .projects .container {
     max-width: 70rem;
-    margin: 0 auto;
+    margin: 5rem auto;
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.projects .container h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.projects .container .slider-wrapper {
+    max-width: 60rem;
+    height: 30rem;
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 2rem;
+    position: relative;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.slider-wrapper .slider-images {
+	height: 100%;
+}
+
+.slider-wrapper .slider-images img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: none;
+}
+
+.slider-wrapper .slider-images img:first-child {
+	display: block;
+}
+
+.slider-wrapper button {
+    height: 65px;
+    width: 65px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    top: 40%;
+    position: absolute;
+    border-radius: 2rem;
+}
+
+.slider-wrapper button .arrow {
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+.slider-wrapper #right-btn {
+    right: 0;
+}
+
+.slider-wrapper #right-btn .arrow {
+    transform: rotate(-45deg);
+}
+
+.slider-wrapper #left-btn {
+    left: 0;
+}
+
+.slider-wrapper #left-btn .arrow {
+    transform: rotate(135deg);
+}
+
+
+/****************************************************  Contact  *********************************************************/
 
 
 .contact {
     min-height: 100vh;
+    scroll-margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contact .container {
+    max-width: 70rem;
+    margin: 5rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact .container h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact .container .form-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.contact .container .form-container form {
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+}
+
+.contact .container .form-container form label {
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contact .container .form-container form input {
+    margin: 0.1rem 0 0.7rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: none;
+}
+
+.contact .container .form-container form textarea {
+    margin-top: 0.5rem;
+    min-height: 5rem;
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.contact .container .form-container form button {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--my-blue);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.contact .container .form-container form button:hover {
+    opacity: 0.8;
+}
+
+.contact .container .form-container .form-image {
+    padding: 1rem;
+}
+
+.contact .container .form-container .form-image img {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.contact .container .social-networks {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.contact .container .social-networks .icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.contact .container .social-networks a {
+    color: var(--secondary-color);
+}
+
+.contact .container .social-networks .icons p {
+    border: 2px solid var(--my-blue);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 
 
+@media only screen and (max-width: 768px) {
+    .contact .container .form-container {
+        flex-direction: column;
+    }
+
+    .contact .container .form-container form {
+        width: 100%;
+    }
+
+    .contact .container .form-container .form-image img {
+        width: 100%;
+    }
+
+    .contact .container .social-networks .icons {
+        margin-top: 1rem;
+        flex-direction: column;        
+    }
+}   
+
+
+
+/****************************************************  Footer *********************************************************/
+
+
 footer {
-    height: 30vh;
+    height: 20vh;
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
