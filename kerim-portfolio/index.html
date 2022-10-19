@@ -25,10 +25,10 @@
                 <span class="bar"></span>
             </div>
             <ul class="nav-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li onclick="hideNavMenu()"><a href="#">        Home    </a></li>
+                <li onclick="hideNavMenu()"><a href="#about">   About   </a></li>
+                <li onclick="hideNavMenu()"><a href="#projects">Projects</a></li>
+                <li onclick="hideNavMenu()"><a href="#contact"> Contact </a></li>
             </ul>
         </div>
     </header>
@@ -38,8 +38,13 @@
 
         <div class="container">
             <div class="informations">
-                <h1>Hello, Welcome To My Webpage</h1>
-                <p>My name is Kerim Imamovic. I come from Sarajevo. I am interested in frontend web technologies.</p>
+                <h1>Hi, I am <span>Kerim</span></h1>
+                <h2>I'm learning front-end web technologies</h2>
+                <p>
+                    My full name is Kerim Imamovic. I come from Sarajevo. I am practising a front-end development. 
+                    Front-end web development is the development of the graphical user interface of a website,
+                    through the use of HTML, CSS (Tailwind CSS), JavaScript and ReactJS (or NextJS).
+                </p>
             </div>
             <div class="image-container">
                 <img src="img/kerim.png" alt="Kerim Imamovic">
@@ -53,7 +58,7 @@
     <section id="about" class="about">
 
         <div class="container">
-            <h2>Something About Me</h2>
+            <h2>Something about me</h2>
             <p>Currently I am learning HTML, CSS and Javascript. Here are some informations about the technologies I learn.</p>
 
             <div id="grid" class="grid"></div>
@@ -74,7 +79,6 @@
                 <div class="slider-images">
                     <img src="projects/kurs.jpg">
                     <img src="projects/kurs2.jpg">
-                    <img src="projects/kurs3.jpg">
                 </div>
                 <button id="right-btn"><i class="arrow"></i></button>
             </div>
@@ -87,21 +91,21 @@
     <section id="contact" class="contact">
 
         <div class="container">
-            <h2>Feel Free To Contact Me</h2>
+            <h2>Feel free to contact me</h2>
 
             <div class="form-container">
                 <form method='POST' action="https://getform.io/f/dca02e7e-afff-4d0f-98a4-7ccc66ea5d33">
-                    <label for="name">Name: </label>
-                    <input type="text" placeholder='Name' name='name' required/>
+                    <label for="name">   Name: </label>
+                    <input id="name"     type="text"   placeholder='Name'       name='Name'    required/>
                     <label for="surname">Surname: </label>
-                    <input type="text" placeholder='Surname' name='surname' required/><br>
-                    <label for="phone">Phone number: </label>
-                    <input type="number" placeholder='Phone' name='phone'/><br>
-                    <label for="email">E-mail: </label>
-                    <input type="email" placeholder='Email' name='email' required/><br>
+                    <input id="surname"  type="text"   placeholder='Surname'    name='Surname' required/><br>
+                    <label for="phone">  Phone number: </label>
+                    <input id="number"   type="number" placeholder='Phone'      name='Phone'   required/><br>
+                    <label for="email">  E-mail: </label>
+                    <input id="email"    type="email"  placeholder='Email'      name='Email'   required/><br>
                     <label for="message">Enter you message: </label><br>
-                    <textarea className='' required name="message" placeholder='Message...'></textarea><br>
-                    <button className=''>Send</button>
+                    <textarea id="textarea"            placeholder='Message...' name='Message' required></textarea><br>
+                    <button>Send</button>
                 </form>
 
                 <div class="form-image">
@@ -114,11 +118,19 @@
             <div class="social-networks">
 
                 <h3>Find me on social networks</h3>
-                <div class="icons">
-                    <a href="https://facebook.com/imamovic.kerim" target="_blank"><p>imamovic.kerim <i class="fa fa-facebook"></i></p></a>
-                    <a href="https://instagram.com/k_imamovic" target="_blank"><p>k_imamovic <i class="fa fa-instagram"></i></p></a>
-                    <a href="https://github.com/kimamovic21" target="_blank"><p>kimamovic21 <i class="fa fa-github"></i></p></a>
-                    <a href="https://ba.linkedin.com/in/kerim-imamovic-261918165" target="_blank"><p>Kerim Imamovic <i class="fa fa-linkedin"></i></p></a>
+                <div class="icons-div">
+                    <a href="https://facebook.com/imamovic.kerim" target="_blank">
+                        <p>imamovic.kerim <i class="fa fa-facebook"></i></p>
+                    </a>
+                    <a href="https://instagram.com/k_imamovic" target="_blank">
+                        <p>k_imamovic <i class="fa fa-instagram"></i></p>
+                    </a>
+                    <a href="https://github.com/kimamovic21" target="_blank">
+                        <p>kimamovic21 <i class="fa fa-github"></i></p>
+                    </a>
+                    <a href="https://ba.linkedin.com/in/kerim-imamovic-261918165" target="_blank">
+                        <p>Kerim Imamovic <i class="fa fa-linkedin"></i></p>
+                    </a>
                 </div>
 
             </div>
@@ -128,11 +140,11 @@
     </section>
 
 
-    <footer>
+    <div class="footer">
         <p>Kerim Imamovic 2022 &#169; All rights reserved.</p>
-    </footer>
+    </div>
 
- 
+    
 </body>
 
 </html>

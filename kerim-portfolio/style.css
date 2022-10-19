@@ -46,12 +46,8 @@ li {
 
 a {
     text-decoration: none;
-    color: var(--primary-color);
 }
 
-a:hover {
-    border-bottom: 1px solid var(--primary-color);
-}
 
 
 /***************************************************  Navbar  *******************************************************/
@@ -95,6 +91,14 @@ a:hover {
 .header .navbar .nav-menu {
     display: flex;
 } 
+
+.header .navbar .nav-menu a {
+    color: var(--primary-color);
+}
+
+.header .navbar .nav-menu a:hover {
+    border-bottom: 1px solid var(--primary-color);
+}
 
 
 @media only screen and (max-width: 768px){
@@ -156,6 +160,13 @@ a:hover {
     gap: 2rem;
 }
 
+.hero .container .informations p {
+    text-align: justify;
+}
+
+.hero .container .informations h1 span {
+    color: var(--my-blue);
+}
 
 .hero .container .image-container img {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -169,11 +180,12 @@ a:hover {
     .hero .container {
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
-        
     }
 
     .hero .container .image-container {
         width: 70%;
+        margin-top: 1rem;
+        margin-left: 2rem;
     }
 }   
 
@@ -219,13 +231,20 @@ a:hover {
     padding: 1rem;
 }
 
+.about .container .grid .grid-card .grid-image{
+    height: 50%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
 .about .container .grid .grid-card .grid-image img{
-    width: 70%;
+    width: 100%;
+    height: 100%;
     border-radius: 1rem;
 }
 
 .about .container .grid .grid-card .informations {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 
@@ -286,8 +305,7 @@ a:hover {
 .slider-wrapper .slider-images img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
-	display: none;
+	object-fit: contain;
 }
 
 .slider-wrapper .slider-images img:first-child {
@@ -295,8 +313,8 @@ a:hover {
 }
 
 .slider-wrapper button {
-    height: 65px;
-    width: 65px;
+    height: 4rem;
+    width: 4rem;
     border: none;
     outline: none;
     background: rgba(0, 0, 0, 0.5);
@@ -386,7 +404,8 @@ a:hover {
 .contact .container .form-container form textarea {
     margin-top: 0.5rem;
     min-height: 5rem;
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     border: none;
     border-radius: 0.5rem;
 }
@@ -411,16 +430,24 @@ a:hover {
 }
 
 .contact .container .form-container .form-image img {
-    width: 100%;
-    margin-top: 1rem;
+    width: 80%;
+    margin: 4rem 0 0 4rem
 }
 
 .contact .container .social-networks {
-    margin-top: 2rem;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.contact .container .social-networks .icons {
+.contact .container .social-networks h3 {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.contact .container .social-networks .icons-div {
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
@@ -429,14 +456,14 @@ a:hover {
 
 .contact .container .social-networks a {
     color: var(--secondary-color);
+    padding: 0.2rem;
 }
 
-.contact .container .social-networks .icons p {
+.contact .container .social-networks .icons-div p {
     border: 2px solid var(--my-blue);
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 0.5rem;
 }
-
 
 
 @media only screen and (max-width: 768px) {
@@ -446,13 +473,16 @@ a:hover {
 
     .contact .container .form-container form {
         width: 100%;
+        margin-left: 0rem;
     }
 
     .contact .container .form-container .form-image img {
-        width: 100%;
+        width: 80%;
+        margin-top: 0;
+        margin-left: 3rem;
     }
 
-    .contact .container .social-networks .icons {
+    .contact .container .social-networks .icons-div {
         margin-top: 1rem;
         flex-direction: column;        
     }
@@ -463,11 +493,16 @@ a:hover {
 /****************************************************  Footer *********************************************************/
 
 
-footer {
+.footer {
     height: 20vh;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
+}
+
+.footer p {
+    font-size: 1rem;
 }

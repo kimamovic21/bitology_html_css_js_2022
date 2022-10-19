@@ -14,7 +14,19 @@ hamburger.addEventListener('click', mobileMenu);
 function mobileMenu() {
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
-}
+};
+
+let listItems = document.querySelectorAll('li');
+console.log(listItems);
+
+function hideNavMenu() {
+    if (navMenu.classList.toggle('active')) {
+        listItems.addEventListener('click', function hideListItems() {
+            listItems.style.display = "none";
+        });
+    };
+};
+
 
 
 // About me section
