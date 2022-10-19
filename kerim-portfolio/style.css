@@ -133,7 +133,7 @@ a {
 }
 
 
-/***************************************************  Home  *********************************************************/
+/***************************************************  Hero  *********************************************************/
 
 
 .hero {
@@ -208,7 +208,8 @@ a {
 }
 
 .about .container h2 {
-    padding: 0.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
     font-size: 2rem;
     text-align: center;
 }
@@ -271,6 +272,7 @@ a {
 .projects {
     height: 100vh;
     scroll-margin-top: 3rem;
+    margin-top: 7rem;
 }
 
 .projects .container {
@@ -282,6 +284,8 @@ a {
 }
 
 .projects .container h2 {
+    margin-top: 1rem;
+    padding: 1rem;
     font-size: 2rem;
     text-align: center;
 }
@@ -289,7 +293,7 @@ a {
 .projects .container .slider-wrapper {
     max-width: 60rem;
     height: 30rem;
-    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 0 auto;
     margin-top: 2rem;
     position: relative;
@@ -356,7 +360,7 @@ a {
 .contact {
     min-height: 100vh;
     scroll-margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 7rem;
 }
 
 .contact .container {
@@ -368,6 +372,8 @@ a {
 }
 
 .contact .container h2 {
+    margin-top: 1rem;
+    padding: 1rem;
     font-size: 2rem;
     text-align: center;
 }
@@ -383,7 +389,7 @@ a {
     width: 50%;
     margin: 1rem;
     padding: 1rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 1rem;
 }
 
@@ -394,7 +400,7 @@ a {
 }
 
 .contact .container .form-container form input {
-    margin: 0.1rem 0 0.7rem;
+    margin: 0.1rem 0 1rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
     width: 100%;
@@ -410,10 +416,14 @@ a {
     border-radius: 0.5rem;
 }
 
+.contact .container .form-container form textarea::placeholder {
+    padding: 0.5rem;
+}
+
 .contact .container .form-container form button {
     width: 100%;
     margin-top: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
     border: none;
     border-radius: 0.5rem;
     background-color: var(--my-blue);
@@ -435,11 +445,11 @@ a {
 }
 
 .contact .container .social-networks {
-    margin-top: 3rem;
-    padding: 0.5rem;
+    margin: 3rem 3rem;
+    padding: 1rem;
     border-radius: 0.5rem;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .contact .container .social-networks h3 {
@@ -449,9 +459,40 @@ a {
 
 .contact .container .social-networks .icons-div {
     margin-top: 1rem;
+    padding: 0.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 1rem;
+}
+
+.contact .container .social-networks .icons-div .fa {
+    font-size: 3rem;
+}
+
+.fa {
+    width: 5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.fa-facebook {
+    background-color: var(--my-blue);
+    color: #fff;
+}
+
+.fa-instagram {
+    background-image: linear-gradient(200deg, purple, red, yellow );
+    background-color: #fff;
+}
+
+.fa-github {
+    background-color: #fff;
+    color: #000;
+}
+
+.fa-linkedin {
+    background-color: var(--my-blue);
+    color: var(--primary-color);
 }
 
 .contact .container .social-networks a {
@@ -460,7 +501,6 @@ a {
 }
 
 .contact .container .social-networks .icons-div p {
-    border: 2px solid var(--my-blue);
     padding: 1rem;
     border-radius: 0.5rem;
 }
